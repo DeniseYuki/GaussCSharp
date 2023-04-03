@@ -1,3 +1,6 @@
+using System.Data;
+using System.Diagnostics.SymbolStore;
+
 double valor = 3.14d;
 Console.WriteLine(valor);
 
