@@ -1,4 +1,4 @@
-
+using System;
 
 namespace ContagemCaracter;
 class Program
@@ -6,17 +6,15 @@ class Program
     static void Main(string[] args)
     {
         string stdata;
-        DateTime dtdata;
-        DateTime aniversario = new DateTime(1990,08,03);
-        
-        Console.WriteLine("Digite a data:  (ano/mês/data)");
-        stdata = Console.ReadLine();
-        dtdata = DateTime.Parse(stdata);
-        Console.WriteLine(dtdata);
+        DateTime dtdata = DateTime.Now;
+        DateTime aniversario = new DateTime(1990, 08, 03);
+
+
+        Console.WriteLine(dtdata.ToString("dd/MM/yyyy"));
 
         if (aniversario == dtdata)
         {
-            Console.WriteLine(" A data informada é seu aniversário.");
+            Console.WriteLine("A data informada é seu aniversário.");
         }
         else
         {
@@ -27,3 +25,4 @@ class Program
 
     }
 }
+
