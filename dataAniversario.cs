@@ -5,7 +5,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        string stdata;
         DateTime dtdata = DateTime.Now;
         DateTime aniversario = new DateTime(1990, 08, 03);
 
