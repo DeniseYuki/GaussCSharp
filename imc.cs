@@ -17,24 +17,20 @@ if (imc < 18.5)
 {
     Console.WriteLine("O IMC está abaixo do peso");
 }
-else
+if (imc > 18.6 && imc < 24.9)
 {
-    if (imc > 18.6 && imc < 24.9)
-    {
-        Console.WriteLine(" Peso ideal");
-    }
-    else
-    {
-        if (imc > 25 && imc < 29.9)
-        {
-            Console.WriteLine("Acima do peso");
-        }
-        else
-        {
-            Console.WriteLine("Obesidade");
-        }
-
-        Console.WriteLine("O IMC é: " + imc);
-
-    }
+    Console.WriteLine(" Peso ideal");
 }
+if (imc > 25 && imc < 29.9)
+
+{
+    Console.WriteLine("Acima do peso");
+
+}
+else
+
+{
+    Console.WriteLine("Obesidade");
+ }
+    
+ 
