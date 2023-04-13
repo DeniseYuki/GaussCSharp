@@ -45,20 +45,6 @@ class Program
 
 
 
-   // public class Livro
-    
-
-      //  public Livro() { }
-
-       // public string Prato { get; set; }
-       // public string TipoPrato { get; set; }
-
-      //  public Livro(string Prato, string TipoPrato)
-        
-        //    this.Prato = Prato;
-        //    this.TipoPrato = TipoPrato;
-       // }
-
 
     
 
