@@ -5,9 +5,8 @@ class program
 {
     static void Main (string[] args)
     {
-        DateTime data = DateTime.Now;
 
-        Console.WriteLine(data.ToString("dd/MM/yyyy"));
+        Console.WriteLine(DateTime.Now.ToString("dd/MM/yyyy"));
     }
 }
 
