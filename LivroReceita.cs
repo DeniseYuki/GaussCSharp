@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
 class Program
 {
 
@@ -8,13 +8,13 @@ class Program
 
         public Livro() { }
 
-        public string Prato { get; set; }
-        public string TipoPrato { get; set; }
+        public string Receita { get; set; }
+        public string Categoria { get; set; }
 
-        public Livro(string Prato, string TipoPrato)
+        public Livro(string Receita, string Categoria)
         {
-            this.Prato = Prato;
-            this.TipoPrato = TipoPrato;
+            this.Receita = Receita;
+            this.Categoria = Categoria;
         }
 
         static List<Livro> receitas;
@@ -30,13 +30,10 @@ class Program
             //receitas.Add(new Livro(null, null));
 
             foreach (Livro l in receitas)
+           
             {
-
-                Console.WriteLine(l.Prato +" "+ l.TipoPrato);
+                Console.WriteLine(l.Receita +" : "+ l.Categoria);
             }
-
-
-
 
         }
     }
