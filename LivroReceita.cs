@@ -17,9 +17,12 @@ class Program
             this.Categoria = Categoria;
         }
 
+        
+
         static List<Livro> receitasBolo;
 
         static void Main(string[] args)
+
         {
             receitasBolo = new List<Livro>();
 
@@ -33,7 +36,7 @@ class Program
 
             {
 
-                Console.WriteLine(l.Categoria + " de " + l.Receita);
+            Console.WriteLine(l.Categoria + " de " + l.Receita);
 
             }
 
@@ -45,18 +48,20 @@ class Program
             {
                 receitasTorta = new List<Livro>();
 
-                receitasTorta.Add(new Livro("Torta", "frango"));
-                receitasTorta.Add(new Livro("Torta", "carne"));
-                receitasTorta.Add(new Livro("Torta", "morango"));
-                receitasTorta.Add(new Livro("Torta", "banana"));
-                receitasTorta.Add(new Livro("Torta", "batata"));
-                receitasTorta.Add(new Livro("Torta", "doce"));
+                receitasTorta.Add(new Livro("frango", "Torta"));
+                receitasTorta.Add(new Livro("carne","Torta"));
+                receitasTorta.Add(new Livro("morango", "Torta"));
+                receitasTorta.Add(new Livro("banana", "Torta"));
+                receitasTorta.Add(new Livro("batata", "Torta"));
+                receitasTorta.Add(new Livro("doce", "Torta"));
 
                 foreach (Livro t in receitasTorta)
 
                 {
-                    Console.WriteLine(t.Receita + " de " + t.Categoria);
+                    Console.WriteLine(t.Categoria + " de " + t.Receita);
+
                 }
+
 
             }
         }
