@@ -13,7 +13,6 @@ class program
         { }
         public string Nome { get; set; }
         public int Telefone { get; set; }
-        public static string nome { get; private set; }
 
         public AgendaTelefonica(string nome, int telefone)
         {
