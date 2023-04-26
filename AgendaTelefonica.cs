@@ -20,66 +20,30 @@ class program
             this.Nome = nome;
             this.Telefone = telefone;
         }
+    }
 
+    static void Main(string[] args)
+    {
+        List<AgendaTelefonica> contatos = new List<AgendaTelefonica>();
 
-        static List<AgendaTelefonica>? contato;
-        private static int telefone;
-        private static object or;
-
-        static void Main(string[] args)
-
-
+        do
         {
-            {
+            Console.WriteLine("Digite um nome: ");
+            string nome = Console.ReadLine();
 
-                contato = new List<AgendaTelefonica>();
+            Console.WriteLine("Digite um número: ");
+            int telefone = Int32.Parse(Console.ReadLine());
 
-                {
+            contatos.Add(new AgendaTelefonica(nome, telefone));
 
-                    Console.WriteLine("Digite um nome: ");
-                    nome = string.Format(Console.ReadLine());
+            Console.WriteLine("Adicionar mais um número? [aperte S para continuar ou qualquer outra tecla para sair]");
+        } while (Console.ReadLine().ToUpper() == "S");
 
-                    Console.WriteLine("Digite um número: ");
-                    telefone = Int32.Parse(Console.ReadLine());
+        Console.WriteLine("Contatos adicionados:");
 
-
-                    contato.Add(new AgendaTelefonica(nome, telefone));
-
-                    foreach (AgendaTelefonica a in contato)
-                        Console.WriteLine("Nome: " + a.Nome + " cel: 11 " + a.Telefone);
-
-                    Console.WriteLine("Adicionar mais um número? [aperte S para continuar ou qualquer outra tecla para sair]");
-                    string c = Console.ReadLine();
-
-                    while (c == "S")
-                    {
-                        Console.WriteLine("Adicionar mais um número? [aperte S para continuar ou qualquer outra tecla para sair]");
-                        string d = Console.ReadLine();
-                        
-                        if (c == "S")
-                        {
-                            Console.WriteLine("Digite um nome: ");
-                            nome = string.Format(Console.ReadLine());
-
-                            Console.WriteLine("Digite um número: ");
-                            telefone = Int32.Parse(Console.ReadLine());
-
-
-                            contato.Add(new AgendaTelefonica(nome, telefone));
-
-                            foreach (AgendaTelefonica a in contato)
-                                Console.WriteLine("Nome: " + a.Nome + " cel: 11 " + a.Telefone);
-                        }
-                        else
-                        {
-                            break;
-                        }
-                    }
-
-
-                }
-            }
-
+        foreach (AgendaTelefonica contato in contatos)
+        {
+            Console.WriteLine($"Nome: {contato.Nome} | Telefone: {contato.Telefone}");
         }
     }
 }
