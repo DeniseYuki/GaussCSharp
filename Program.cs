@@ -1,30 +1,36 @@
-﻿namespace carro;
+﻿using System;
+using System.Collections.Generic;
+
 class Program
 {
     static void Main(string[] args)
     {
+        List<int> numeros = new List<int>();
+        int i = 0;
+        while (i <= 100)
+        {
+            numeros.Add(i);
+            i++;
+        }
 
-        var carro = new Carro();
+        foreach (int numero in numeros)
+            if (numero % 5 == 0)
+            {
+                {
+                    Console.WriteLine("\n Yuki \n");
+                }
+            }
+            else
+            {
+                {
+                    Console.WriteLine(numero);
+                }
 
-        carro.modelo = "Gol";
-        carro.ano = 2000;
-        carro.km = 50.3f;
 
-        var carro1 = new Carro();
+            }
 
-        carro1.modelo = "Uno";
-        carro1.ano = 2015;
-        carro1.km = 25.6f;
-
-        var motor = new Motor();
-
-        motor.modelo = "V8";
-        motor.tipo = "xyz";
-        motor.tamanho = 10;
-
-        Console.WriteLine("O Carro  " + carro.modelo + " ano:  " + carro.ano + "  com a quantidade em km:  " + carro.km);
-        Console.WriteLine("O Carro  " + carro1.modelo + " ano:  " + carro1.ano + " com a quantidade em km:  " + carro1.km);
-        Console.WriteLine("O motor:  " + motor.tipo + " é do tipo  " + motor.tipo + " e do tamanho  " + motor.tamanho);
     }
 }
+
+
 
