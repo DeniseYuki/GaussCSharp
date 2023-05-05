@@ -18,3 +18,28 @@ for (int a = 100; a > 0; a--)
     Console.WriteLine(a);
 }
 
+
+
+
+
+// list e foreach
+
+        List<int> numeros = new List<int>();
+        int i = 100;
+        while (i >0)
+        {
+            
+            numeros.Add(i);
+            i--;
+        }
+
+        foreach (int numero in numeros)
+        {
+            Console.WriteLine(numero);
+        }
+
+
+
+
+
+
