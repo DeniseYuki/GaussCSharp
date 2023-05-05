@@ -1,4 +1,4 @@
-// Primeira maneira usando WHILE: (não estava. no exercicio, mas foi o primeiro que eu imaginei, depois eu li direito e fiz o segundo)
+// 1 maneira: usando WHILE: (não estava. no exercicio, mas foi o primeiro que eu imaginei, depois eu li direito e fiz o segundo)
 
 int num = 101, i = 0;
 while (i < 100)
@@ -11,7 +11,7 @@ while (i < 100)
 
 
 
-// 2 maneira usando o FOR:
+// 2 maneira: usando o FOR:
 
 for (int a = 100; a > 0; a--)
 {
@@ -22,7 +22,7 @@ for (int a = 100; a > 0; a--)
 
 
 
-// list e foreach
+//  3 maneira: list e foreach
 
         List<int> numeros = new List<int>();
         int i = 100;
