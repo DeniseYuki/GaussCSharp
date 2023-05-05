@@ -25,10 +25,7 @@ class Program
                 {
                     Console.WriteLine(numero);
                 }
-
-
             }
-
     }
 }
 
