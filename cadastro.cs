@@ -8,6 +8,7 @@ namespace pessoa.modelo
 {
     public class Cadastro
     {
+        public int id;
         public string nome;
         public string funcao;
         public string educação;
@@ -15,12 +16,9 @@ namespace pessoa.modelo
         public float tempoDeServico;
 
     }
-    public class TotalFuncionarios
-    {
-        List<string> lista = new List<string>();
-
-        public void Add(string nome)
+        public class TotalFuncionarios
         {
-          
-        }
+       List<string> lista = new List<string>();
+
+     }
     }
