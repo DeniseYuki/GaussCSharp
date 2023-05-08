@@ -80,6 +80,9 @@ namespace EmpresaMaxAlteirTesla
 
                 // media salario por setor:
 
+
+                // PRECISO ARRUMAR ESSE PEDAÇO, NÃO ESTÁ FUNCIONANDO COMO EU GOSTARIA.
+                // ERA PARA SOMAR OS VALORES DE CADA FUNÇÃO E MOSTRAR A MÉDIA, MAS ELE ESTÁ FAZENDO A MÉDIA INDIVIDUAL POR PESSOA DE CADA CATEGORIA.
                 if (Cadastro.funcao == "Gerente")
                 {
                     float mediaSalario = (Cadastro.salario++)/2;
