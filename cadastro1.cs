@@ -66,7 +66,8 @@ namespace EmpresaMaxAlteirTesla
                 //Console.WriteLine("\n ID: ");
                 CadastroAdicional.id = (i);
 
-                Console.WriteLine(" DIGITE O CÓDIGO DA FUNÇÃO: "); CadastroAdicional.codidoFuncao = Int32.Parse(Console.ReadLine());
+                Console.WriteLine(" DIGITE O CÓDIGO DA FUNÇÃO: ");
+                CadastroAdicional.codidoFuncao = Int32.Parse(Console.ReadLine());
 
                 Console.WriteLine("NOME: ");
                 CadastroAdicional.nome = Console.ReadLine();
