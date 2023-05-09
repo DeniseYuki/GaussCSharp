@@ -63,7 +63,6 @@ namespace EmpresaMaxAlteirTesla
             while (i < 9)
             {
                 Cadastro CadastroAdicional = new Cadastro();
-                //Console.WriteLine("\n ID: ");
                 CadastroAdicional.id = (i);
 
                 Console.WriteLine(" DIGITE O CÓDIGO DA FUNÇÃO: ");
