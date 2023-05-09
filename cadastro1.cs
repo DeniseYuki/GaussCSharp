@@ -103,7 +103,7 @@ namespace EmpresaMaxAlteirTesla
                     float soma = Cadastro1.salario + Cadastro.salario;
                     float tempo = Cadastro1.tempoDeServico + Cadastro.tempoDeServico;
                     Console.WriteLine($"\n A média salarial da Gerencia é:  {soma / 2}");
-                    Console.WriteLine($"\n Registro de tempo no setor da Gerencia é :  {soma}");
+                    Console.WriteLine($"\n Registro de tempo no setor da Gerencia é :  {tempo}");
 
 
                 }
@@ -116,7 +116,7 @@ namespace EmpresaMaxAlteirTesla
                     float tempo1 = Cadastro2.tempoDeServico + Cadastro.tempoDeServico;
 
                     Console.WriteLine($"\n A média salarial dos atendentes é:  {soma1 / 2}");
-                    Console.WriteLine($"\n Registro de tempo no setor dos Atendentes é :  {soma1}");
+                    Console.WriteLine($"\n Registro de tempo no setor dos Atendentes é :  {tempo1}");
 
                 }
 
@@ -128,7 +128,7 @@ namespace EmpresaMaxAlteirTesla
                     float tempo2 = Cadastro3.tempoDeServico + Cadastro.tempoDeServico;
 
                     Console.WriteLine($"\n A média salarial da RH é:  {soma2 / 2}");
-                    Console.WriteLine($"\n Registro de tempo no setor do RH é :  {soma2}");
+                    Console.WriteLine($"\n Registro de tempo no setor do RH é :  {tempo2}");
 
                 }
 
@@ -141,7 +141,7 @@ namespace EmpresaMaxAlteirTesla
 
                     Console.WriteLine($"\n A média salarial do suporte é:  {soma3 / 2}");
 
-                    Console.WriteLine($"\n Registro de tempo no setor do suporte é :  {soma3}");
+                    Console.WriteLine($"\n Registro de tempo no setor do suporte é :  {tempo3}");
 
 
                 }
