@@ -10,10 +10,10 @@ namespace pessoa.modelo
     {
         public int id;
         public string nome;
-        public string funcao;
-        public string educação;
+        public string educacao;
         public float salario;
         public float tempoDeServico;
+        public int codidoFuncao;
 
     }
         public class TotalFuncionarios
