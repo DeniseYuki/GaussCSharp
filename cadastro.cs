@@ -8,12 +8,12 @@ namespace pessoa.modelo
 {
     public class Cadastro
     {
-        public int id;
-        public string nome;
-        public string educacao;
-        public float salario;
-        public float tempoDeServico;
-        public int codidoFuncao;
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Educacao { get; set; }
+        public float Salario { get; set; }
+        public float TempoDeServico { get; set; }
+        public int CodidoFuncao { get; set; }
 
     }
         public class TotalFuncionarios
