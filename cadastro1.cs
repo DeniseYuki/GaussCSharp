@@ -103,7 +103,41 @@ namespace EmpresaMaxAlteirTesla
                     float soma = Cadastro1.salario + Cadastro.salario;
                     float tempo = Cadastro1.tempoDeServico + Cadastro.tempoDeServico;
                     Console.WriteLine($"\n A média salarial da Gerencia é:  {soma / 2}");
-                    Console.WriteLine($"\n Registro de tempo no setor da Gerencia é :  {tempo}");
+                    Console.WriteLine($"\n Registro de tempo no setor da Gerencia é :  {tempo} horas por dia");
+
+
+                    List<string> Setor2 = new List<string>();
+                    Setor2.Add(Cadastro1.nome);
+                    Setor2.Add(Convert.ToString(Cadastro1.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro1.id));
+                    Setor2.Add(Convert.ToString(Cadastro1.salario));
+                    Setor2.Add(Convert.ToString(Cadastro1.tempoDeServico));
+                    Setor2.Add(Cadastro.nome);
+                    Setor2.Add(Convert.ToString(Cadastro.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro.id));
+                    Setor2.Add(Convert.ToString(Cadastro.salario));
+                    Setor2.Add(Convert.ToString(Cadastro.tempoDeServico));
+
+                    foreach (var SetorAtendente in Setor2)
+                    {
+                        Console.WriteLine("\n ======= GERENTE 1 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro1.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro1.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro1.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro1.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro1.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro1.tempoDeServico} \n");
+
+                        Console.WriteLine("\n ======= GERENTE 2 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro.tempoDeServico} \n");
+                    }
 
 
                 }
@@ -116,7 +150,39 @@ namespace EmpresaMaxAlteirTesla
                     float tempo1 = Cadastro2.tempoDeServico + Cadastro.tempoDeServico;
 
                     Console.WriteLine($"\n A média salarial dos atendentes é:  {soma1 / 2}");
-                    Console.WriteLine($"\n Registro de tempo no setor dos Atendentes é :  {tempo1}");
+                    Console.WriteLine($"\n Registro de tempo no setor dos Atendentes é :  {tempo1} horas por dia");
+
+                    List<string> Setor2 = new List<string>();
+                    Setor2.Add(Cadastro2.nome);
+                    Setor2.Add(Convert.ToString(Cadastro2.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro2.id));
+                    Setor2.Add(Convert.ToString(Cadastro2.salario));
+                    Setor2.Add(Convert.ToString(Cadastro2.tempoDeServico));
+                    Setor2.Add(Cadastro.nome);
+                    Setor2.Add(Convert.ToString(Cadastro.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro.id));
+                    Setor2.Add(Convert.ToString(Cadastro.salario));
+                    Setor2.Add(Convert.ToString(Cadastro.tempoDeServico));
+
+                    foreach (var SetorAtendente in Setor2)
+                    {
+                        Console.WriteLine("\n ======= ATENDENTE 1 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro2.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro2.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro2.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro2.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro2.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro2.tempoDeServico} \n");
+                        Console.WriteLine("\n ======= ATENDENTE 2 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro.tempoDeServico} \n");
+                    }
 
                 }
 
@@ -128,7 +194,40 @@ namespace EmpresaMaxAlteirTesla
                     float tempo2 = Cadastro3.tempoDeServico + Cadastro.tempoDeServico;
 
                     Console.WriteLine($"\n A média salarial da RH é:  {soma2 / 2}");
-                    Console.WriteLine($"\n Registro de tempo no setor do RH é :  {tempo2}");
+                    Console.WriteLine($"\n Registro de tempo no setor do RH é :  {tempo2} horas por dia");
+
+                    List<string> Setor2 = new List<string>();
+                    Setor2.Add(Cadastro3.nome);
+                    Setor2.Add(Convert.ToString(Cadastro3.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro3.id));
+                    Setor2.Add(Convert.ToString(Cadastro3.salario));
+                    Setor2.Add(Convert.ToString(Cadastro3.tempoDeServico));
+                    Setor2.Add(Cadastro.nome);
+                    Setor2.Add(Convert.ToString(Cadastro.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro.id));
+                    Setor2.Add(Convert.ToString(Cadastro.salario));
+                    Setor2.Add(Convert.ToString(Cadastro.tempoDeServico));
+
+                    foreach (var SetorAtendente in Setor2)
+                    {
+                        Console.WriteLine("\n ======= RH 1 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro3.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro3.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro3.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro3.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro3.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro3.tempoDeServico} \n");
+                        Console.WriteLine("\n ======= RH 2 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro.tempoDeServico} \n");
+
+                    }
 
                 }
 
@@ -141,7 +240,40 @@ namespace EmpresaMaxAlteirTesla
 
                     Console.WriteLine($"\n A média salarial do suporte é:  {soma3 / 2}");
 
-                    Console.WriteLine($"\n Registro de tempo no setor do suporte é :  {tempo3}");
+                    Console.WriteLine($"\n Registro de tempo no setor do suporte é :  {tempo3} horas por dia");
+
+
+                    List<string> Setor2 = new List<string>();
+                    Setor2.Add(Cadastro4.nome);
+                    Setor2.Add(Convert.ToString(Cadastro4.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro4.id));
+                    Setor2.Add(Convert.ToString(Cadastro4.salario));
+                    Setor2.Add(Convert.ToString(Cadastro4.tempoDeServico));
+                    Setor2.Add(Cadastro.nome);
+                    Setor2.Add(Convert.ToString(Cadastro.codidoFuncao));
+                    Setor2.Add(Convert.ToString(Cadastro.id));
+                    Setor2.Add(Convert.ToString(Cadastro.salario));
+                    Setor2.Add(Convert.ToString(Cadastro.tempoDeServico));
+
+                    foreach (var SetorAtendente in Setor2)
+                    {
+                        Console.WriteLine("\n ======= Suporte 1 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro4.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro4.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro4.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro4.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro4.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro4.tempoDeServico} \n");
+                        Console.WriteLine("\n ======= Suporte 2 ======= \n");
+
+                        Console.WriteLine($"\n ID: {Cadastro.id}");
+                        Console.WriteLine($"CODIGO DA FUNÇÃO:{Cadastro.codidoFuncao}");
+                        Console.WriteLine($"NOME: {Cadastro.nome}");
+                        Console.WriteLine($"ESCOLARIDADE: {Cadastro.educacao}");
+                        Console.WriteLine($"SALÁRIO: {Cadastro.salario}");
+                        Console.WriteLine($"HORAS TRABALHADAS NO DIA:{Cadastro.tempoDeServico} \n");
+                    }
 
 
                 }
@@ -150,7 +282,6 @@ namespace EmpresaMaxAlteirTesla
         }
     }
 }
-
 
 
 
